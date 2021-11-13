@@ -7,6 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-java@v1
+    - uses: psf/black@20.8b1  # change this
       with:
         java-version: '12.x'
     - uses: subosito/flutter-action@v1
